@@ -8,5 +8,10 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/xiaomo?characterEncoding=utf8&useSSL=false
     password: root
     username: root
+  rabbitmq:
+    host: localhost
+    port: 5672
+    password: guest
+    username: guest
 env: 
   22222222222
